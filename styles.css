@@ -1,0 +1,69 @@
+.attribution { 
+    font-size: 11px;
+     text-align: center;
+     color: hsl(193, 38%, 86%);
+     margin: 20px;
+     }
+  .attribution a { 
+    color: hsl(150, 100%, 66%);
+    text-decoration: none;
+   }
+
+  #document {
+width: 35%;
+border-radius: 12px;
+padding:30px 30px 60px 30px;
+margin: 20px;
+background-color: hsl(217, 19%, 24%);
+}
+
+body{
+font-family: 'Manrope', sans-serif;
+background-color: hsl(218, 23%, 16%);
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+height: 90vh;
+justify-content: center;
+}
+#adviceid{
+color: hsl(150, 100%, 66%);
+letter-spacing: 3px;
+  font-size: smaller;
+}
+.advice{
+color:hsl(193, 38%, 86%);
+font-weight: 800;
+font-size: 28px;
+}
+img{
+width: 85%;
+}
+.btn{
+vertical-align:middle;
+  margin-top:-45px;
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  border: none;
+border-radius: 50%;
+background-color: hsl(150, 100%, 66%);
+}
+.btn:hover{
+box-shadow: 0 0px 20px hsl(150, 100%, 66%);
+}
+.dice_img{
+width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-device-width: 480px) {
+img{
+width: 100%;
+}
+#document {
+width: 80%;
+}
+}
