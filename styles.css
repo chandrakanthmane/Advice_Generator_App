@@ -56,8 +56,25 @@ box-shadow: 0 0px 20px hsl(150, 100%, 66%);
 .dice_img{
 width: 20px;
   height: 20px;
-  vertical-align: middle;
+  vertical-align: middle; 
 }
+
+/* .classname{
+   animation: rotation 1s linear;
+  animation-duration: 2s;
+  animation-name: rotation;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */
+
+
 
 @media only screen and (max-device-width: 480px) {
 img{
@@ -66,4 +83,7 @@ width: 100%;
 #document {
 width: 80%;
 }
+.btn:hover{
+  box-shadow: 0 0px 0px hsl(150, 100%, 66%);
+  }
 }
