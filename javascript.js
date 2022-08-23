@@ -6,7 +6,7 @@ async function exampleFetch() {
 
     document.getElementById("adviceId").innerHTML= data.slip.id;
     document.getElementById("advice").innerHTML= data.slip.advice;
-    // document.getElementById('dice').className = 'classname';
+     document.getElementById('dice').className = 'classname';
 }
 
 exampleFetch()
